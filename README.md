@@ -8,7 +8,7 @@ How To Use
 
 To quickly run, do:
 
-```$ docker run -d -p 8080:8080 -p 29418:29418 -v ${PWD}/gitbucket 190ikp/gitbucket```
+```$ docker run -d -p 8080:8080 -p 29418:29418 -v ${PWD}/gitbucket:/gitbucket 190ikp/gitbucket```
 
 All data in GitBucket is mounted on `~/gitbucket`.
 
