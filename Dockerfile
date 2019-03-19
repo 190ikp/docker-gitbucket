@@ -17,4 +17,4 @@ VOLUME /gitbucket
 EXPOSE 8080
 EXPOSE 29418
 
-CMD /bin/sh -c '/opt/gitbucket.sh'
+CMD '/opt/gitbucket.sh'
